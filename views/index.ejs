@@ -40,6 +40,7 @@
                     <tr>
                         <th>Full URL</th>
                         <th>Short URL</th>
+                        <th>Short URL</th>
                         <th>Short Path</th>
                         <th>Clicks</th>
                         <th>Comments</th>
@@ -54,6 +55,7 @@
                             <a href="<%= shortUrl.full %>" ><%= shortUrl.full %></a>
                         </td>
                         <td><a href="http://localhost:8080/<%= shortUrl.short %>" target="_blank">http://localhost:8080/<%= shortUrl.short %></a></td>
+                        <td><a href="https://inst.my/<%= shortUrl.short %>" target="_blank">https://inst.my/<%= shortUrl.short %></a></td>
                         <td>/<%= shortUrl.short %></td>
                         <td><%= shortUrl.clicks %></td>
                         <td><%= shortUrl.comment %></td>
